@@ -79,3 +79,26 @@ table {
 .centered {
     text-align: center;
 }
+
+
+.copy {
+    background-color:rgba(0,0,0,0.8);;
+    padding: 2em 0;
+    text-align: center;
+    color: #fff
+}
+.copy p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+.copy p a {
+    color: #fff;
+}
+.copy p a:hover {
+    color: #999;
+}
+
+#bidheader{
+    text-align: center;
+}

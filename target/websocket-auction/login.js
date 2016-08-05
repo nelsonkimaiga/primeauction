@@ -5,16 +5,6 @@ var websocket;
 var separator = ":";
 var id = 0;
 
-function validateForm(){
-    var x = document.forms["loginform"]["logintext"].value;
-    if (x == null || x == ""){
-        alert("Username must be filled out");
-        return false;
-    }
-    return true;
-}
-
-
 function getRootUri() {
     return "ws://" + (document.location.hostname == "" ? "localhost" : document.location.hostname) + ":" +
         (document.location.port == "" ? "8080" : document.location.port);
